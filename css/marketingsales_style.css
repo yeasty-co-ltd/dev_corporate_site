@@ -1,0 +1,748 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+body{
+  color: #333;
+  font-family:  'Roboto','Noto Sans JP',sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.dot_sevice{
+  visibility: visible;
+}
+
+/* 以下sp版 */
+
+.junKeyVisual h1{
+  font-size: 54px;
+}
+
+.junKeyVisual h2{
+  font-size: 18px;
+}
+
+.junKeyVisualImg{
+  background-image: url(../image/marketingsalesJunback.jpg);
+  background-size:200%;
+  background-position-x: 40%;
+  background-repeat: no-repeat;
+}
+
+/* ***************************** */
+/* Section：課題*/
+/* ***************************** */
+
+.SecSalesConsul{
+  padding-bottom: 48px;
+}
+
+.frameConsulSec{
+  text-align: center;
+  padding:100px 0;
+}
+
+.frameConsulSec h2{
+  font-size: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.frameConsulSecTitle{
+  padding-bottom: 24px;
+}
+
+.secConsulSubTitle img{
+  vertical-align: middle;
+  /* responsive用 */
+  width: 42px;
+}
+
+.secConsulSubTitle p{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+.frameMarketing .frameSales{
+  /* width: 300px; */
+}
+
+
+.HowSupportMarSal{
+  background-image: url(../image/yeasty_housya_back.png);
+  background-size:12%;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 80%;
+}
+
+.HowSupportMarSal h3{
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.HowSupportMarSal p{
+  margin-top: 5px;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+}
+
+.l-main{
+  padding-bottom: 300px;
+  /* ためしに */
+  /* width: 300px; */
+}
+
+.secMarkeingFeature .secSalesFeature{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.LeftMarkFature{
+  position: relative;
+  /* width: 1100px; */
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.RightMarkFature{
+  position: relative;
+  /* width: 1100px; */
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.imgLeftMarkFeature{
+  /* ためしに */
+  /* width: 510px; */
+  width: 300px;
+  position: relative;
+  left: 130px;
+  top: 210px;
+ }
+
+ .imgRightMarkFeature{
+   /* ためしに */
+   /* width: 510px; */
+   width: 300px;
+   position: relative;
+   Left: 36px;
+   top: 210px;
+ }
+ 
+ .imgLeftMarkFeature img{
+   width: 330px;
+ }
+
+ .imgRightMarkFeature img{
+  width: 330px;
+}
+
+.numberMarkFature{
+  color: #f7ad00;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family:  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+  text-align: center;
+}
+
+.numberSalesFature{
+  color: #ffcc00;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family:  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+  text-align: center;
+}
+
+.LMarkdotBlock{
+  width: 341px;
+  height: 282px;
+  z-index: -1; 
+  position: absolute;
+  top: 90px;
+  left: 84px;
+  background-image: url(../image/marketing_dots.png);
+}
+
+.RMarkdotBlock{
+  width: 341px;
+  height: 282px;
+  z-index: -1; 
+  position: absolute;
+  top: 90px;
+  left: 84px;
+  background-image: url(../image/marketing_dots.png);
+}
+
+.SalesdotBlock{
+  width: 341px;
+  height: 282px;
+  z-index: -1; 
+  position: absolute;
+  top: 90px;
+  left: 84px;
+  background-image: url(../image/dots_ffcc00.png);
+}
+
+
+.txtLeftMarkeFuature{
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  width: 300px;
+  padding: 42px 12px ;
+  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255,0.8);
+}
+
+.txtRightMarkeFuature{
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+  width: 300px;
+  /* height: 429px; */
+  padding: 42px 12px ;
+  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255,0.8);
+}
+/* 
+.numberMarkFature{
+  text-align: center;
+  padding-top: 54px;
+} */
+
+.txtLeftMarkeFuature h2{
+  margin: 21px 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.txtLeftMarkeFuature p{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 12px;
+  /* letter-spacing: 1px; */
+  line-height: 1.8em;
+}
+
+.txtRightMarkeFuature h2{
+  margin: 21px 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.txtRightMarkeFuature p{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 12px;
+  /* letter-spacing: 1px; */
+  line-height: 1.8em;
+}
+
+/* Section：フロー*/
+/* ***************************** */
+
+.l-flow-wrap{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.FlowChartDecEntire{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.flowChartTitle{
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.flowChartTitle img{
+  width: 35px;
+}
+
+.flowChartTitle p{
+  font-size: 24px;
+  padding-left: 18px;
+}
+
+.FlowChartDec{
+  font-size: 15px;
+  padding-left: 57px;
+  width: 210px;
+  letter-spacing: 2px;
+  text-align: top;
+
+}
+
+.TriangleAlow{
+  margin-top: 21px;
+}
+
+.TriangleAlow img{
+  transform: rotate(91deg);
+  display: block;
+  margin-left:75px;
+}
+
+.BranchTriangle{
+  background-image: url(../image/branchTriangle.jpg);
+  background-repeat: no-repeat;
+  background-position-y:14px;
+  background-position-x:84px;
+  background-size: 180px;
+  margin: 60px 0;
+  padding:30px 127px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.BranchTitle{
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.branchPart{
+  margin: 74px 0 60px;
+}
+
+.SpeechBalloon_sales{
+  background-image: url(../image/SpeechBalloon_ffcc00.jpg);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 100px;
+}
+
+.SpeechBalloon_marketing{
+  background-image: url(../image/SpeechBalloon_f7ad00.jpg);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 100px;  
+}
+
+.SupportKind{
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.SupportKind p{
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}
+
+.SupportKind > .SupportKindSales{
+  width: 39px;
+  height: auto;
+}
+
+.SupportKind > .SupportKindMarket{
+  width: 51px;
+  height: auto;
+}
+
+.AfterBranch{
+  width: 78%;
+  margin: 0 auto;
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+/* 以下pc版 ★ */
+@media (min-width: 600px) {
+
+  .dot_service{
+    visibility: visible;
+  }
+  
+  .junKeyVisualImg{
+    background-image: url(../image/marketingsalesJunback.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+
+  .junKeyVisual h1{
+    font-size: 72px;
+    padding-top: 10px;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+
+  .junKeyVisual h2{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+  }
+
+  /* ***************************** */
+  /* Section：課題*/
+  /* ***************************** */
+  
+  .SecMarketingConsul{
+    padding-bottom: 142px;
+  }
+  
+  .SecSalesConsul{
+    padding-bottom: 142px;
+    /* background-color: #f5f5f5; */
+  }
+  
+  .frameConsulSec{
+    text-align: center;
+    padding:100px 0;
+  }
+  
+  .frameConsulSec h2{
+    font-size: 42px;
+  }
+  
+  .frameConsulSecTitle{
+    padding-bottom: 24px;
+  }
+  
+  .secConsulSubTitle img{
+    vertical-align: middle;
+    /* responsive用 */
+    width: 48px;
+  }
+  
+  .secConsulSubTitle p{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+  }
+  
+  .frameMarketing .frameSales{
+    max-width: 1500px;
+  }
+  
+  
+  .HowSupportMarSal{
+    background-image: url(../image/yeasty_housya_back.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 80%;
+  }
+  
+  .HowSupportMarSal h3{
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .HowSupportMarSal p{
+    margin-top: 5px;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+  }
+  
+  .l-main{
+    padding-bottom: 200px;
+  }
+  
+  .secMarkeingFeature .secSalesFeature{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .LeftMarkFature{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .RightMarkFature{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .imgLeftMarkFeature{
+    width: 510px;
+    position: relative;
+    left: 530px;
+    top: 87px;
+   }
+  
+   .imgRightMarkFeature{
+     width: 510px;
+     position: relative;
+     Left: 55px;
+     top: 80px;
+   }
+   
+   .imgLeftMarkFeature img{
+    width: auto;
+  }
+
+  .imgRightMarkFeature img{
+    width: auto;
+  }
+
+  .numberMarkFature{
+    color: #f7ad00;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family:  "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    text-align: center;
+  }
+  
+  .numberSalesFature{
+    color: #ffcc00;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family:  "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    text-align: center;
+    /* padding-top: 54px; */
+  }
+  
+  .LMarkdotBlock{
+    width: 561px;
+    height: 432px;
+    z-index: -1; 
+    position: absolute;
+    top: 24px;
+    left: 300px;
+    background-image: url(../image/marketing_dots.png);
+  }
+  
+  .RMarkdotBlock{
+    width: 561px;
+    height: 432px;
+    z-index: -1; 
+    position: absolute;
+    top: 24px;
+    left: 300px;
+    background-image: url(../image/marketing_dots.png);
+  }
+  
+  .SalesdotBlock{
+    width: 561px;
+    height: 390px;
+    z-index: -1; 
+    position: absolute;
+    top: 48px;
+    left: 300px;
+    background-image: url(../image/dots_ffcc00.png);
+  }
+  
+  .txtLeftMarkeFuature{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    width: 540px;
+    padding: 63px 0;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .txtRightMarkeFuature{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    width: 540px;
+    padding: 63px 0;
+    /* height: 429px; */
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .txtLeftMarkeFuature h2{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .txtLeftMarkeFuature p{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+  }
+  
+  .txtRightMarkeFuature h2{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .txtRightMarkeFuature p{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+  }
+  
+  /* Section：フロー*/
+  /* ***************************** */
+  
+  .l-flow-wrap{
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .FlowChartDecEntire{
+    width: 100%;
+    margin: 90px 0 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flowChartTitle{
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+
+  /* resposive対応 */
+  .flowChartTitle img{
+    width: 48px;
+  }
+  
+  .flowChartTitle p{
+    font-size: 32px;
+    padding-left: 18px;
+  }
+  
+  .FlowChartDec{
+    font-size: 16 px;
+    padding-left: 57px;
+    width: 210px;
+    letter-spacing: 2px;
+    text-align: top;
+  
+  }
+  
+  .TriangleAlow{
+    margin-top: 0;
+    margin: auto 0;
+    display: inline;
+  }
+
+  .TriangleAlow img{
+    transform: rotate(0deg);
+    display: inline;
+    margin-left:0px;
+  }
+  
+  .BranchTriangle{
+    background-image: url(../image/branchTriangle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    font-size: 15px;
+    padding: 0;
+    color: #fff;
+    padding:70px 0 100px;
+    text-align: center;
+  }
+
+  .BranchTitle{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  
+  .branchPart{
+    margin: 74px 0 154px;
+  }
+  
+  .SpeechBalloon_sales{
+    background-image: url(../image/SpeechBalloon_ffcc00.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+  }
+  
+  .SpeechBalloon_marketing{
+    background-image: url(../image/SpeechBalloon_f7ad00.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;  
+  }
+  
+  .SupportKind{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .SupportKind p{
+    font-size: 27px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+  }
+
+  /* responsive用 */
+  .SupportKind > .SupportKindSales{
+    width: 48px;
+    height: auto;
+  }
+
+  .SupportKind > .SupportKindMarket{
+    width: 66px;
+    height: auto;
+  }
+  
+  .AfterBranch{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}

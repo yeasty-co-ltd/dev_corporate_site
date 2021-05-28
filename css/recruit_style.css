@@ -1,0 +1,44 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+.dot_recruit{
+  visibility: visible;
+}
+
+.junKeyVisualImg{
+  background-image: url(../image/recruitkey.jpg);
+  background-size:190%;
+  background-position-x: 40%;
+  background-repeat: no-repeat;
+}
+
+.RecruitFrame{
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.RecruitTitle{
+  font-size: 18px;
+  margin-top: 50px;
+  padding-bottom: 60px;
+}
+
+.RecruitDec{
+  font-size: 12px;
+  padding-bottom: 200px;
+}
+
+/* 以下pc版 ★ */
+@media (min-width: 600px) {
+  .junKeyVisualImg{
+    background-image: url(../image/recruitkey.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+}

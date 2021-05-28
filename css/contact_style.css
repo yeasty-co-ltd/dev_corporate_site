@@ -1,0 +1,205 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+.dot_contact{
+  visibility: visible;
+}
+
+.junKeyVisualImg{
+  background-image: url(../image/contactkey.jpg);
+  background-size:180%;
+  background-position-x: 70%;
+  background-repeat: no-repeat;
+}
+
+.ContactInfo{
+  padding-top:42px;
+}
+
+.ContactFrame{
+  width: 75%;
+  margin: 0 auto;
+} 
+
+.contactTitlesection{
+  margin-bottom:20px;
+}
+
+.ContactFrame p{
+  color: #ff0000a1;
+  font-size: 15px;
+}
+
+.ContactTitle{  
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+form{
+  margin: 0 auto;
+}
+
+.item{          
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.label{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 9px;
+  width:120px;
+}
+.inputs{
+  float: left;
+  width:300px;
+}
+
+input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px;  
+  padding:10px;
+  font-size: 15px;
+}
+
+input[type="text"],input[type="tel"]{
+  border: solid 1px #aaa;
+  border-radius:5px;  
+  padding:10px;
+  font-size: 15px;
+}
+
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 218px;
+  font-size: 15px;
+}
+.btn-area{
+  text-align: center;
+  margin:28px 0;
+}
+
+.itemcheckbox{
+  padding-left: 10%;
+  line-height: 3em;
+  letter-spacing: 1px;
+  vertical-align: middle;
+}
+
+.itemcheckbox a{
+  text-decoration: underline;
+}
+
+input[type="submit"]{
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size:15px;
+  padding: 6px 24px;
+}
+
+.afterSubMsg{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 160px;
+  font-size: 18px;
+}
+
+/* 以下pc版 ★ */
+@media (min-width: 600px) {
+  .junKeyVisualImg{
+    background-image: url(../image/contactkey.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+  
+  .ContactInfo{
+    padding-top:60px;
+  }
+  
+  .ContactFrame{
+    width: 60%;
+    margin: 0 auto;
+  } 
+  
+  .contactTitlesection{
+    margin-bottom:20px;
+  }
+  
+  .ContactFrame p{
+    color: #ff0000a1;
+    font-size: 15px;
+  }
+  
+  .ContactTitle{  
+    font-size: 18px;
+    padding-bottom: 60px;
+  }
+  
+  form{
+    margin: 0 auto;
+  }
+  
+  .item{          
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  
+  .label{
+    float: left;
+    margin-right: 20px;
+    width:135px;
+  }
+  .inputs{
+    float: left;
+    width:392px;
+  }
+  input[type="text"],input[type="email"]{
+    border: solid 1px #aaa;
+    border-radius:5px;  
+    padding:10px;
+    font-size: 15px;
+  }
+  
+  textarea{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding: 10px;
+    height: 218px;
+    font-size: 15px;
+  }
+  .btn-area{
+    text-align: center;
+    margin:28px 0;
+  }
+  
+  .itemcheckbox{
+    padding-left: 20%;
+    line-height: 3em;
+    letter-spacing: 1px;
+    vertical-align: middle;
+  }
+  
+  .itemcheckbox a{
+    text-decoration: underline;
+  }
+  
+  input[type="submit"]{
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size:18px;
+    padding: 10px 30px;
+  }
+}

@@ -1,0 +1,399 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+.dot_company{
+  visibility: visible;
+}
+
+.junKeyVisualImg{
+  background-image: url(../image/recruitkey.jpg);
+  background-size:180%;
+  background-position-x: 40%;
+  background-repeat: no-repeat;
+}
+
+.secVision{
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.secDec{
+  text-align: center;
+}
+
+.secComSub{
+  color: #f7ad00; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.secComDetVision{
+  padding-top: 21px;
+  font-size: 30px;
+  width: 80%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+
+.secDec h4{
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top:10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.secMission{
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.secComDetMission{
+  padding-top: 33px;
+  font-size: 21px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.secVisionDetail{
+   width: 80%;
+   background-color: #fff;
+   margin: 0 auto;
+   padding: 24px;
+   margin-top: 24px;
+}
+
+
+.secVisionDetailInner img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 9px;
+}
+
+
+.secVisionDetailInner p{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-top: 15px;
+  font-size: 14px;
+  letter-spacing: 2px;  
+  line-height: 1.3em;
+
+}
+
+.secValue{
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.secValueCircle{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 33px;
+}
+
+.value-up{
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.value-down{
+  margin: 0 auto;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.objValue{
+  background-repeat: no-repeat;
+  background-size: 170px;
+  background-position: center;
+  width: 180px;
+  height: 180px;
+  background-size: 90%;
+}
+
+.value_1{
+  background-image: url(../image/value_1.png);
+}
+
+.value_3{
+  background-image: url(../image/value_3.png);
+}
+
+.value_5{
+  background-image: url(../image/value_5.png);
+}
+
+.value_2{
+  background-image: url(../image/value_2.png);
+}
+
+.value_4{
+  background-image: url(../image/value_4.png);
+}
+
+.objValueTitle{
+  padding-top: 54px;
+  color:#fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.objValue p{
+  padding-top: 5px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+/* ************************ */
+/* カンパニープロフィール */
+/* ************************ */
+
+.secProfile{
+  padding-top: 90px;
+  padding-bottom: 150px;
+  width:80%;
+  margin: 0 auto;
+}
+
+.tbProfile{
+  margin-top: 50px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: left;
+  border-collapse: separate;
+  border-top: 1px solid #333;
+}
+
+.tbProfile tr{
+    border: 1px solid #333;
+}
+
+.tbProfile td, th {
+  padding: 24px 0;
+  line-height: 1.5em;
+  vertical-align: middle;
+  border-bottom: 1px solid #333;
+}
+
+.tbProfile td{
+  width: 400px;
+}
+
+.tbProfile th{
+  width: 180px;
+  font-weight: normal;
+  padding-left: 24px;
+}
+
+.tbProfile p:nth-child(even){
+  margin: 6px 0;
+}
+
+
+.profileTitle{
+  font-size: 30px;
+}
+
+/* 以下pc版 ★ */
+@media (min-width: 600px) {
+  .junKeyVisualImg{
+    background-image: url(../image/recruitkey.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+  
+  .secVision{
+    background-color: #f5f5f5;
+    padding: 90px 0;
+  }
+  
+  .secDec{
+    text-align: center;
+  }
+  
+  .secComSub{
+    color: #f7ad00; 
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .secComDetVision{
+    padding-top: 33px;
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  
+  .secVisionDetail{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top:54px ;
+  }
+  .secDec h4{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top:10px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .secMission{
+    background-color: #fff;
+    padding: 90px 0;
+  }
+  
+  .secComDetMission{
+    padding-top: 33px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  
+  .secVisionDetailInner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .secVisionDetailInner p{
+    margin-left: 54px;
+    margin-top: 0px;
+    width:55%;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  
+  .secValue{
+    background-color: #f5f5f5;
+    padding: 90px 0;
+  }
+  
+  .secValueCircle{
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 33px;
+  }
+  
+  .value-up{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .value-down{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .objValue{
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .value_1{
+    background-image: url(../image/value_1.png);
+  }
+  
+  .value_3{
+    background-image: url(../image/value_3.png);
+  }
+  
+  .value_5{
+    background-image: url(../image/value_5.png);
+  }
+  
+  .value_2{
+    background-image: url(../image/value_2.png);
+  }
+  
+  .value_4{
+    background-image: url(../image/value_4.png);
+  }
+  
+  .objValueTitle{
+    padding-top: 54px;
+    color:#fff;
+    font-size: 21px;
+    letter-spacing: 1px;
+  }
+  
+  .objValue p{
+    padding-top: 5px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  
+  
+  /* ************************ */
+  /* カンパニープロフィール */
+  /* ************************ */
+  
+  .secProfile{
+    padding-top: 90px;
+    padding-bottom: 150px;
+    width:55%;
+    margin: 0 auto;
+  }
+  
+  .tbProfile{
+    margin-top: 50px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: left;
+    border-collapse: separate;
+    border-top: 1px solid #333;
+  }
+  
+  .tbProfile tr{
+      border: 1px solid #333;
+  }
+  
+  .tbProfile td, th {
+    padding: 42px 0;
+    line-height: 1.5em;
+    vertical-align: middle;
+    border-bottom: 1px solid #333;
+  }
+  
+  .tbProfile td{
+    width: 400px;
+  }
+  
+  .tbProfile th{
+    width: 180px;
+    font-weight: normal;
+    padding-left: 24px;
+  }
+  
+  .tbProfile p:nth-child(even){
+    margin: 6px 0;
+  }
+  
+  
+  .profileTitle{
+    font-size: 30px;
+  }
+}

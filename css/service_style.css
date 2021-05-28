@@ -1,0 +1,125 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+.dot_service{
+  visibility: visible;
+}
+
+.junKeyVisualImg{
+  background-image: url(../image/servicemenuKey.jpg);
+  background-size:150%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+}
+
+.listService{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.serviceItem{
+  margin-top: 80px;    
+}
+
+.serviceItem{
+  width: 325px;
+  padding: 21px;
+  background-color: #fff;
+  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.secOurSev{
+  margin-bottom:60px ;
+}
+
+.l-serviceitem-wap{
+  padding-left: 24px;
+}
+
+.serviceItem img{
+  display: block;
+  margin: 0 auto;
+}
+
+.serviceNameJP{
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding-top: 18px;
+}
+
+.serviceNameEN{
+  font-size: 12px;
+  color: #f7ad00;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding-top: 6px;
+}
+
+.serviceItem p{
+  width: 90%;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding-top: 36px;
+  line-height: 1.5em;
+}
+
+.link{
+  padding: 36px;
+  background-image: url(../image/viewmoreimg.jpg);
+  background-repeat: no-repeat;
+  background-position-x:90% ;
+  background-position-y:70% ;
+  background-size:30%;
+  text-align: right;
+  display: block;
+}
+
+.coming{
+  background-image: unset;
+
+}
+
+.link a{
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.link a:hover{
+  color: rgb(117, 117, 117);
+}
+
+/* 以下pc版 ★ */
+@media (min-width: 600px) {
+  .junKeyVisualImg{
+    background-image: url(../image/servicemenuKey.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+
+  .secOurSev{
+    margin-bottom:90px ;
+  }
+
+  .SecTitleFrame{
+    margin-bottom: 0;
+    padding-bottom: 72px;
+  }
+
+  .listService{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+}
