@@ -5,8 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
 /* pc、sp 共通 */
+
 body{
   font-family:  'Roboto','Noto Sans JP',sans-serif;
+  max-width: 100%;
 }
 
 h1{
@@ -95,12 +97,12 @@ header{
 .sp-menu .topLogo{
   position: absolute;
   top: 0;
-  right: 370px;
+  left: 10%;
 }
   
 .sp-menu #open {
   position: relative;
-  left: 436px;
+  left: 85%;
   font-size: 32px;
   line-height: 64px;
   cursor: pointer;
@@ -181,7 +183,7 @@ header{
 }
 
 .SecTitle{
-  font-size: 36px;
+  font-size: 30px;
   padding-bottom: 17px;
 }
 
@@ -213,7 +215,7 @@ header{
 }
 
 .junKeyVisual h1{
-    font-size: 72px;
+    font-size: 42px;
     padding-top: 10px;
     font-weight: bold;
     letter-spacing: 5px;
@@ -229,13 +231,13 @@ header{
   .junKeyLoop{
   width: 2397.55px;
   display: flex;
-  height: 122px;
+  height: 100px;
   }
 
 .junKeyLoop span{
   display: inline-block;
   padding-right: 20px;
-  font-size: 122px;
+  font-size: 90px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.2);
   font-family: 'Noto Sans JP', sans-serif;
@@ -329,6 +331,7 @@ header{
 .footerMsg p{
   display:inline-block;
   vertical-align:top; /*縦方向の揃え位置を指定*/
+  font-size: 12px;
   /* padding-right: 5px; */
 }
 
@@ -591,6 +594,7 @@ header{
     display:inline-block;
     vertical-align:top; /*縦方向の揃え位置を指定*/
     padding-right: 5px;
+    font-size: 18px;
   }
 
   .footerMenu{

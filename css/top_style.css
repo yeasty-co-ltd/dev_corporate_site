@@ -229,6 +229,7 @@ header{
 .l-main{
   margin:0 auto ;
   padding-bottom: 100px;
+  max-width: 100%;
  }
 
 .SecService1{
@@ -238,25 +239,25 @@ header{
 
 .imgService1{
   position: relative;
-  width: 380px;
-  height: 270px;
-  left: 100px;
-  top: 100px;
+  width: 260px;
+  height: auto;
+  left: 50px;
+  top: 90px;
 }
 
 .imgService1 img{
-  width: 380px;
-  height: 270px;
+  width: 270px;
+  height: 210px;
   border-radius: 1px;
 }
 
 .dotBlock {
   position: absolute;
-  top: 65%;
-  left: 55px;
+  top: 60%;
+  left: 30px;
   transform: translateY(-50%);
-  width: 380px;
-  height: 270px;
+  width: 270px;
+  height: 210px;
   background-image: url(../image/dots.png);
   z-index: -1; 
 }
@@ -266,10 +267,8 @@ header{
   top: 40%;
   left:10px;
   transform: translateY(-50%);
-  width: 380px;
-  height: 255px;
-  padding: 40px;
-  /* background-color: #fff; */
+  /* height: 255px; */
+  padding: 30px;
   background-color :rgba(255, 255, 255, 0.9);
   box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -287,7 +286,7 @@ header{
 }
 
 .txtService1 h2 {
-  font-size: 27px;
+  font-size: 18px;
   margin-bottom: 10px; 
   letter-spacing: 2px;
   font-weight: bold;
@@ -295,15 +294,15 @@ header{
 
 .txtService1 h3 {
   padding-bottom: 30px;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 2px;
   color: #f7ad00;
   }
 
 .txtService1 p { 
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 2px;
-  margin-bottom: 40px; 
+  margin-bottom: 24px; 
 }
 
 .txtService1 .link {
@@ -311,8 +310,6 @@ header{
   letter-spacing: 1px;
   font-family: 'Noto Sans JP', sans-serif;
   text-align: left;
-      /* margin-left: 280px; */
-  /* margin-right: 50px; */
   height: 18px;
   background-image: url(../image/viewmoreimg.jpg);
   background-repeat: no-repeat;
@@ -322,23 +319,21 @@ header{
   /* サービス② */
 .SecService2{
   position: relative;
-  /* width: 1100px; */
-  /* margin-left: auto; */
   margin-bottom: 72px;
 }
 
 .imgService2{
   position: relative;
-  width: 380px;
-  height: 270px;
+  width: 270px;
+  height: auto;
   left: 10px;
   top: 100px;
-  margin-bottom: 92px;
+  /* margin-bottom: 92px; */
 }
 
 .imgService2 img{
-  width: 380px;
-  height: 270px;
+  width: 270px;
+  height: 210px;
   border-radius: 1px;
 }
 
@@ -347,20 +342,20 @@ header{
   top: 65%;
   transform: translateY(-50%);
   left: 60px;
-  width: 380px;
-  height: 270px;
+  width: 270px;
+  height: 210px;
   background-image: url(../image/dots.png);
   z-index: -1; 
 }
 
 .txtService2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left:95px;
   transform: translateY(-50%);
-  width: 380px;
-  height: 255px;
-  padding: 40px;
+  /* width: 380px; */
+  /* height: 255px; */
+  padding: 30px;
   background-color :rgba(255, 255, 255, 0.9);
   box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -377,7 +372,7 @@ header{
 }
 
 .txtService2 h2 {
-  font-size: 27px;
+  font-size: 18px;
   margin-bottom: 10px; 
   letter-spacing: 2px;
   font-weight: bold;
@@ -385,15 +380,15 @@ header{
 
 .txtService2 h3 {
   padding-bottom: 30px;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 2px;
   color: #f7ad00;
  }
 
 .txtService2 p { 
-  font-size: 12px;
+  font-size: 10px;
     letter-spacing: 2px;
-    margin-bottom: 40px; 
+    margin-bottom: 24px; 
 }
 
 .txtService2 .link {
@@ -524,7 +519,8 @@ header{
     background-image: url(../image/keyBack.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: contain;
+    /* background-position-y: center; */
+    background-size:cover;
     height: 700px;
     background-color: #f7ad00;
   }
