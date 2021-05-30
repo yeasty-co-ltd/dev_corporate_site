@@ -36,7 +36,7 @@ a{
 
 .junKeyVisualImg{
   background-image: url(../image/consulvisu.jpg);
-  background-size:200%;
+  background-size:cover;
   background-position-x: 40%;
   background-repeat: no-repeat;
 }
@@ -202,7 +202,7 @@ a{
   
   .junKeyVisualImg{
     background-image: url(../image/consulvisu.jpg);
-    background-size:100%;
+    background-size:cover;
     background-repeat: no-repeat;
   }
   

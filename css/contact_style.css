@@ -13,7 +13,7 @@ a{
 
 .junKeyVisualImg{
   background-image: url(../image/contactkey.jpg);
-  background-size:180%;
+  background-size:cover;
   background-position-x: 70%;
   background-repeat: no-repeat;
 }
@@ -58,7 +58,7 @@ form{
 }
 .inputs{
   float: left;
-  width:300px;
+  width:90%;
 }
 
 input[type="text"],input[type="email"]{
@@ -119,7 +119,7 @@ input[type="submit"]{
 @media (min-width: 600px) {
   .junKeyVisualImg{
     background-image: url(../image/contactkey.jpg);
-    background-size:100%;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   
