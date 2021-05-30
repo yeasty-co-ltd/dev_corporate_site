@@ -312,8 +312,8 @@ header{
 }
 
 .FooterContactLink{
-  font-size: 42px;
-  letter-spacing: 3px;
+  font-size: 33px;
+  letter-spacing: 4px;
 }
 
 .footerBorder{
@@ -341,20 +341,21 @@ header{
 
 }
 .footerArea{
-    width: 240px;
+    width: 180px;
     padding-top:24px;
     padding-bottom: 24px;
     display: flex;
     margin-left:auto;
-    /* background-color: tomato; */
 }
 
 .footerArea img{
   padding-right: 10px;
+  width: 30px;
+  height: auto;
 }
 
 .footerTxt{
-  font-size: 15px;
+  font-size: 12px;
   margin-top: auto;
   margin-bottom: auto;
   color: #fff;
@@ -612,12 +613,15 @@ header{
 
   .footerArea img{
     padding-right: 10px;
+    width: 37px;
+    height: auto;
   }
 
   .footerTxt{
-      margin-top: auto;
-      margin-bottom: auto;
-      color: #fff;
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
   }
 }
 /* @meddia：pc end ★ */ 

@@ -17,8 +17,9 @@ header{
   background-image: url(../image/keyBack_sp.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
+  background-position: bottom;
   background-size: contain;
-  height: 500px;
+  height: 450px;
   background-color: #f7ad00;
 }
 
@@ -267,6 +268,7 @@ header{
   top: 40%;
   left:10px;
   transform: translateY(-50%);
+  width: 260px;
   /* height: 255px; */
   padding: 30px;
   background-color :rgba(255, 255, 255, 0.9);
@@ -324,7 +326,7 @@ header{
 
 .imgService2{
   position: relative;
-  width: 270px;
+  width: 260px;
   height: auto;
   left: 10px;
   top: 100px;
@@ -353,7 +355,7 @@ header{
   top: 40%;
   left:95px;
   transform: translateY(-50%);
-  /* width: 380px; */
+  width: 260px;
   /* height: 255px; */
   padding: 30px;
   background-color :rgba(255, 255, 255, 0.9);
@@ -433,7 +435,7 @@ header{
   padding: 3px 9px;
   border-radius: 4px;
   color:#fff;
-  margin: 0 18px;
+  margin: 0 6px;
 }
 
 .scroll-list .title{
@@ -450,8 +452,8 @@ header{
   }
 
   .aboutIMG img{
-    width:82px;
-    height:87px;
+    width:60px;
+    height:auto;
   }
 
   .secAboutFrame{
@@ -469,11 +471,11 @@ header{
 
   .secAbout1 h2{
     padding-bottom: 12px;
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .secAbout1 p{
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Noto Sans JP', sans-serif;
   }
 
@@ -482,7 +484,7 @@ header{
   }
 
   .secAboutSub{
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 30px;
     margin-bottom: 12px;
   }
