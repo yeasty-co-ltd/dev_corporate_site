@@ -17,14 +17,6 @@ a{
 
 /* 以下sp版 */
 
-.junKeyVisual h1{
-  font-size: 54px;
-}
-
-.junKeyVisual h2{
-  font-size: 18px;
-}
-
 .junKeyVisualImg{
   background-image: url(../image/marketingsalesJunback.jpg);
   background-size:cover;
@@ -42,7 +34,7 @@ a{
 
 .frameConsulSec{
   text-align: center;
-  padding:100px 0;
+  padding:60px 0;
 }
 
 .frameConsulSec h2{
@@ -80,7 +72,7 @@ a{
   background-position: left;
   padding: 30px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 84px;
   width: 80%;
 }
 
@@ -96,9 +88,7 @@ a{
 }
 
 .l-main{
-  padding-bottom: 300px;
-  /* ためしに */
-  /* width: 300px; */
+  padding-bottom: 240px;
 }
 
 .secMarkeingFeature .secSalesFeature{
@@ -108,34 +98,30 @@ a{
 
 .LeftMarkFature{
   position: relative;
-  /* width: 1100px; */
+  width: 95%;
   margin: 0 auto;
   z-index: -1;
 }
 
 .RightMarkFature{
   position: relative;
-  /* width: 1100px; */
+  width: 95%;
   margin: 0 auto;
   z-index: -1;
 }
 
 .imgLeftMarkFeature{
-  /* ためしに */
-  /* width: 510px; */
-  width: 300px;
   position: relative;
-  left: 130px;
-  top: 210px;
+  left: 0%;
+  top:112px;
+  z-index: -1;
  }
 
  .imgRightMarkFeature{
-   /* ためしに */
-   /* width: 510px; */
-   width: 300px;
-   position: relative;
-   Left: 36px;
-   top: 210px;
+  position: relative;
+  left: 0%;
+  top:112px;
+  z-index: -1;
  }
  
  .imgLeftMarkFeature img{
@@ -171,44 +157,47 @@ a{
 }
 
 .LMarkdotBlock{
-  width: 341px;
-  height: 282px;
-  z-index: -1; 
   position: absolute;
-  top: 90px;
-  left: 84px;
+  top: -30%;
+  right:0%;
+  width: 300px;
+  height: 282px;
+  z-index: -2;
   background-image: url(../image/marketing_dots.png);
 }
 
 .RMarkdotBlock{
-  width: 341px;
-  height: 282px;
-  z-index: -1; 
   position: absolute;
-  top: 90px;
-  left: 84px;
+  top: -30%;
+  right:0%;
+  width: 300px;
+  height: 282px;
+  z-index: -2; 
   background-image: url(../image/marketing_dots.png);
 }
 
 .SalesdotBlock{
-  width: 341px;
-  height: 282px;
-  z-index: -1; 
   position: absolute;
-  top: 90px;
-  left: 84px;
+  top: -30%;
+  right:0%;
+  width: 300px;
+  height: 282px;
+  z-index: -2; 
   background-image: url(../image/dots_ffcc00.png);
 }
 
 
 .txtLeftMarkeFuature{
+  /* 中央寄せ */
   position: absolute;
   top: 50%;
-  left: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
   transform: translateY(-50%);
   width: 300px;
-  padding: 42px 12px ;
-  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+  padding: 42px 12px;
+  box-shadow: 2px 2px 20px 2px rgb(0 0 0 / 10%);
   border-radius: 5px;
   background-color: rgb(255, 255, 255,0.8);
 }
@@ -216,20 +205,16 @@ a{
 .txtRightMarkeFuature{
   position: absolute;
   top: 50%;
-  right: 24px;
+  left: 0;
+  right: 0;
+  margin: auto;
   transform: translateY(-50%);
   width: 300px;
-  /* height: 429px; */
   padding: 42px 12px ;
   box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   background-color: rgb(255, 255, 255,0.8);
 }
-/* 
-.numberMarkFature{
-  text-align: center;
-  padding-top: 54px;
-} */
 
 .txtLeftMarkeFuature h2{
   margin: 21px 0;
@@ -244,7 +229,6 @@ a{
   margin: 0 auto;
   margin-top: 20px;
   font-size: 12px;
-  /* letter-spacing: 1px; */
   line-height: 1.8em;
 }
 
@@ -317,12 +301,17 @@ a{
 .BranchTriangle{
   background-image: url(../image/branchTriangle.jpg);
   background-repeat: no-repeat;
-  background-position-y:14px;
-  background-position-x:84px;
+  background-position-y:center;
+  background-position-x:center;
   background-size: 180px;
   margin: 60px 0;
-  padding:30px 127px;
-  font-size: 13px;
+  padding-top: 24px;
+  padding-bottom: 39px;
+}
+
+.BranchTriangle p{
+  text-align: center;
+  font-size: 12px;
   color: #fff;
 }
 
@@ -343,11 +332,27 @@ a{
   height: 100px;
 }
 
+.SpeechBalloon_sales p{
+  font-size: 12px;
+  color: #333;
+  width:85%;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
 .SpeechBalloon_marketing{
   background-image: url(../image/SpeechBalloon_f7ad00.jpg);
   background-repeat: no-repeat;
   width: 300px;
   height: 100px;  
+}
+
+.SpeechBalloon_marketing p{
+  font-size: 12px;
+  color: #333;
+  width:85%;
+  margin: 0 auto;
+  padding: 24px 0;
 }
 
 .SupportKind{
@@ -373,9 +378,7 @@ a{
 }
 
 .AfterBranch{
-  width: 78%;
   margin: 0 auto;
-  /* display: flex; */
   justify-content: space-between;
 }
 
@@ -472,6 +475,7 @@ a{
   
   .l-main{
     padding-bottom: 200px;
+    width: auto;
   }
   
   .secMarkeingFeature .secSalesFeature{
@@ -541,7 +545,7 @@ a{
   .LMarkdotBlock{
     width: 561px;
     height: 432px;
-    z-index: -1; 
+    z-index: -2; 
     position: absolute;
     top: 24px;
     left: 300px;
@@ -551,7 +555,7 @@ a{
   .RMarkdotBlock{
     width: 561px;
     height: 432px;
-    z-index: -1; 
+    z-index: -2; 
     position: absolute;
     top: 24px;
     left: 300px;
@@ -561,7 +565,7 @@ a{
   .SalesdotBlock{
     width: 561px;
     height: 390px;
-    z-index: -1; 
+    z-index: -2; 
     position: absolute;
     top: 48px;
     left: 300px;
@@ -572,6 +576,7 @@ a{
     position: absolute;
     top: 50%;
     left: 50px;
+    right: auto;
     transform: translateY(-50%);
     width: 540px;
     padding: 63px 0;
@@ -584,10 +589,10 @@ a{
     position: absolute;
     top: 50%;
     right: 50px;
+    left: auto;
     transform: translateY(-50%);
     width: 540px;
     padding: 63px 0;
-    /* height: 429px; */
     box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     background-color: #fff;
@@ -684,11 +689,15 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    font-size: 15px;
     padding: 0;
-    color: #fff;
     padding:70px 0 100px;
     text-align: center;
+  }
+
+  .BranchTriangle p{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
   }
 
   .BranchTitle{
@@ -708,11 +717,27 @@ a{
     height: 100px;
   }
   
+  .SpeechBalloon_sales p{
+    font-size: 12px;
+    color: #333;
+    width:85%;
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+
   .SpeechBalloon_marketing{
     background-image: url(../image/SpeechBalloon_f7ad00.jpg);
     background-repeat: no-repeat;
     width: 300px;
     height: 100px;  
+  }
+
+  .SpeechBalloon_marketing p{
+    font-size: 12px;
+    color: #333;
+    width:85%;
+    margin: 0 auto;
+    padding: 24px 0;
   }
   
   .SupportKind{
