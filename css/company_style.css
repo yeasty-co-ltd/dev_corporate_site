@@ -379,11 +379,10 @@ a{
   }
   
   .tbProfile td{
-    width: 400px;
+    width: 80%;
   }
   
   .tbProfile th{
-    width: 180px;
     font-weight: normal;
     padding-left: 24px;
   }
